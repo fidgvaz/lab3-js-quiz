@@ -113,3 +113,13 @@ button:hover {
     margin-top: 6px;
     margin-bottom: 6px;
 }
+
+/* Keep feedback text and icon together */
+#q1Message,
+#q2Message,
+#q3Message,
+#q4Message,
+#q5Message {
+    display: inline-block;
+    margin-right: 8px;
+}
