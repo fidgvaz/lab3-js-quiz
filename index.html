@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Lab 3: Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="Js/script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>HTML and CSS Quiz</h1>
+
+    <!-- Question 1 -->
+    <p>1. What HTML element creates a dropdown menu?</p>
+
+    <div id="q1Choices"></div>
+
+    <p id="q1Message"></p>
+    <img id="q1Image" class="feedback-icon" alt="">
+
+    <br>
+
+
+    <!-- Question 2 -->
+    <label for="q2">
+        2. What input type creates a textbox?
+    </label>
+
+    <input type="text" id="q2">
+
+    <p id="q2Message"></p>
+    <img id="q2Image" class="feedback-icon" alt="">
+
+    <br>
+
+
+    <!-- Question 3 -->
+    <label for="q3">
+        3. Which HTML element defines an option inside a dropdown menu?
+    </label>
+
+    <select id="q3">
+        option value="input">input</option>
+        <option value="select">select</option>
+        <option value="option">option</option>
+        <option value="label">label</option>
+    </select>
+
+    <p id="q3Message"></p>
+    <img id="q3Image" class="feedback-icon" alt="">
+
+    <br>
+
+
+    <!-- Question 4 -->
+    <label for="q4">
+        4. How many questions are there?
+    </label>
+
+    <input id="q4" type="number">
+
+    <p id="q4Message"></p>
+    <img id="q4Image" class="feedback-icon" alt="">
+
+    <br>
+
+    <!-- Question 5 -->
+    <p>5. Which of these are HTML form elements?</p>
+
+    <input type="checkbox" id="q5Input" name="q5" value="input">
+    <label for="q5Input">input</label>
+
+    <input type="checkbox" id="q5Select" name="q5" value="select">
+    <label for="q5Select">select</label>
+
+    <input type="checkbox" id="q5Div" name="q5" value="div">
+    <label for="q5Div">div</label>
+
+    <p id="q5Message"></p>
+    <img id="q5Image" class="feedback-icon" alt="">
+    
+
+<br>
+
+<p id="scoreMessage"></p>
+
+<p id="scoreMessage"></p>
+<p id="attemptsMessage"></p>
+<p id="congratsMessage"></p>
+
+    <button type="button">Submit Quiz</button>
+
+</body>
+
+</html>

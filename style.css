@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 18px 28px;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+
+    line-height: 1.3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+
+    margin-top: 0;
+    margin-bottom: 18px;
+    padding: 12px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+p {
+    font-size: 16px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 5px 7px;
+
+    font-size: 15px;
+
+    border: 1px solid #777;
+    border-radius: 5px;
+
+    background-color: white;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 15px;
+    margin-top: 10px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    background-color: #2673dd;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease,
+                background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #174ea6;
+    transform: scale(1.03);
+}
+
+.feedback-icon {
+    width: 22px;
+    height: 22px;
+
+    margin-top: 2px;
+    margin-bottom: 6px;
+
+    vertical-align: middle;
+}
+
+.feedback-icon:not([src]) {
+    display: none;
+}
+
+#scoreMessage {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+#attemptsMessage {
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#congratsMessage {
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
